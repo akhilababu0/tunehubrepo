@@ -1,0 +1,45 @@
+/* CSS for adminhome.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* light gray */
+}
+
+/* Container styling */
+.container {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: green; /* white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* slight shadow */
+    text-align: center;
+}
+
+/* Title styling */
+.container p {
+    font-size: 24px;
+    font-weight: bold;
+    color: green; /* dark gray */
+}
+
+/* Button styling */
+.container input[type="submit"] {
+    display: block;
+    width: 200px;
+    margin: 10px auto;
+    padding: 10px;
+    background-color: green; /* blue */
+    color: green; /* white */
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.container input[type="submit"]:hover {
+    background-color: green; /* darker blue on hover */
+}

@@ -1,0 +1,56 @@
+/* CSS for login.css */
+
+/* Body styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: black; /* light gray */
+}
+
+/* Form container styling */
+form {
+    width: 300px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: green; /* white */
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* slight shadow */
+}
+
+/* Heading styling */
+h2 {
+    text-align: center;
+    color: #333; /* dark gray */
+}
+
+/* Label styling */
+label {
+    font-weight: bold;
+    color: #555; /* medium gray */
+}
+
+/* Input styling */
+input[type="email"],
+input[type="password"],
+input[type="submit"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc; /* light gray */
+    border-radius: 5px;
+    box-sizing: border-box; /* include padding in width calculation */
+}
+
+/* Submit button styling */
+input[type="submit"] {
+    background-color: black; /* blue */
+    color: #fff; /* white */
+    border: none;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: green; /* darker blue on hover */
+}

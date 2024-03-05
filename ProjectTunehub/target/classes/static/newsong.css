@@ -1,0 +1,42 @@
+/* add_song.css */
+body {
+    font-family: Arial, sans-serif;
+    background-color:  #006400;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: blue;
+    border-radius: 5px;
+    box-shadow: 0px 0px 10px black; /* Adjust shadow */
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input-field {
+    width: calc(100% - 22px); /* Adjust input field width */
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid black; /* Change border color to black */
+    border-radius: 4px;
+    color: black; /* Set text color to black */
+    text-align: center; /* Align text to the center */
+}
+
+.btn-submit {
+    padding: 10px 20px;
+    background-color: black;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.btn-submit:hover {
+    background-color:  #006400;
+}
